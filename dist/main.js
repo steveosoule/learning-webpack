@@ -96,6 +96,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _icon_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9);
 /* harmony import */ var _icon_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_icon_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12);
+/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -110,6 +113,8 @@ function component() {
   myIcon.src = _icon_png__WEBPACK_IMPORTED_MODULE_2___default.a;
   myIcon.width = 500;
   element.appendChild(myIcon);
+
+  console.log(_data_xml__WEBPACK_IMPORTED_MODULE_3___default.a);
 
   return element;
 }
@@ -17926,6 +17931,12 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = {"note":{"to":["Mary"],"from":["John"],"heading":["Reminder"],"body":["Call Cindy on Tuesday"]}}
 
 /***/ })
 /******/ ]);
