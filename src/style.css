@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abril Fatface'), local('AbrilFatface-Regular'), url('./AbrilFatface-Regular.ttf') format('woff2');
+}
+
+.hello {
+  color: #1c78c0;
+  font-size: 2rem;
+  background: url('./icon.png');
+  font-family: 'Abril Fatface';
+}
