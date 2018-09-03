@@ -1,5 +1,9 @@
 # Webpack
 
+Working through the [webpack.js.org/guides](https://webpack.js.org/guides/) to learn more about how Webpack works.
+
+---
+
 | Topic                       | Tutorial                                                               | Branch                                                                       |
 | --------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Basic Setup                 | [Tutorial](https://webpack.js.org/guides/getting-started/#basic-setup) | [Branch](https://github.com/steveosoule/webpack/tree/basic-setup)            |
