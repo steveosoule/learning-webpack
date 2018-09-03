@@ -11,3 +11,4 @@
 9. [Lazy Loading](https://webpack.js.org/guides/lazy-loading/)
 10. [Caching](https://webpack.js.org/guides/caching/)
 11. [Author Libraries](https://webpack.js.org/guides/author-libraries/)
+12. [Shimming](https://webpack.js.org/guides/shimming/)
