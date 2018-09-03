@@ -7,7 +7,6 @@
   "scripts": {
     "build": "webpack"
   },
-  "main": "dist/webpack-numbers.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
