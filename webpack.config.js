@@ -1,16 +1,24 @@
 const path = require('path');
 const webpack = require('webpack');
+
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'production',
   entry: {
     app: './src/index.js'
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  module:{
+    rules: [
+      {
+        test: require.resolve('./src/globals.js'),
+        use: 'exports-loader?file,parse=helpers.parse'
+      }
+    ]
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -18,7 +26,7 @@ module.exports = {
       title: 'Shimming'
     }),
     new webpack.ProvidePlugin({
-      _: 'lodash'
+      join: ['lodash', 'join']
     })
   ]
 };
