@@ -4,7 +4,9 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'webpack-numbers.js'
+    filename: 'webpack-numbers.js',
+    library: 'webpackNumbers',
+    libraryTarget: 'umd' // var, this, window, umd
   },
   externals: {
     lodash: {
