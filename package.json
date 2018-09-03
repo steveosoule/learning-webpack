@@ -5,6 +5,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
