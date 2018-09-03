@@ -11,6 +11,7 @@ devDependencies:
   webpack-cli: 3.1.0
   webpack-dev-middleware: 3.2.0
   webpack-dev-server: 3.1.7
+  webpack-merge: 4.1.4
   xml-loader: 1.2.1
 packages:
   /@webassemblyjs/ast/1.5.13:
@@ -4122,6 +4123,12 @@ packages:
       node: '>= 6'
     resolution:
       integrity: sha512-cX8G2vR/85UYG59FgkoMamwHUIkSSlV3bBMRsbxVXVUk2j6NleCKjQ/WE9eYg9WY4w25O9w8wKP4rzNZFmUcUg==
+  /webpack-merge/4.1.4:
+    dependencies:
+      lodash: 4.17.10
+    dev: true
+    resolution:
+      integrity: sha512-TmSe1HZKeOPey3oy1Ov2iS3guIZjWvMT2BBJDzzT5jScHTjVC3mpjJofgueEzaEd6ibhxRDD6MIblDr8tzh8iQ==
   /webpack-sources/1.2.0:
     dependencies:
       source-list-map: 2.0.0
@@ -4285,4 +4292,5 @@ specifiers:
   webpack-cli: ^3.1.0
   webpack-dev-middleware: ^3.2.0
   webpack-dev-server: ^3.1.7
+  webpack-merge: ^4.1.4
   xml-loader: ^1.2.1
