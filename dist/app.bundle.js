@@ -92,12 +92,20 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+
 
 
 function component() {
   let element = document.createElement('div');
+  let btn = document.createElement('button');
+
   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['hello', 'webpack'], ' ');
-  element.classList.add('hello');
+
+  btn.innerHTML = 'Click me and check the console!';
+  btn.onclick = _print_js__WEBPACK_IMPORTED_MODULE_1__["default"];
+
+  element.appendChild(btn);
 
   return element;
 }
@@ -17261,6 +17269,17 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return printMe; });
+function printMe() {
+  console.log('I get called from print.js!');
+}
 
 /***/ })
 /******/ ]);
