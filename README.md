@@ -1,5 +1,7 @@
 # Webpack Demo
 
+| Topic                       | Tutorial                                                               | Branch                                                                       |
+| --------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Basic Setup                 | [Tutorial](https://webpack.js.org/guides/getting-started/#basic-setup) | [Branch](https://github.com/steveosoule/webpack/tree/basic-setup)            |
 | Asset Management            | [Tutorial](https://webpack.js.org/guides/asset-management)             | [Branch](https://github.com/steveosoule/webpack/tree/asset-management)       |
 | Output Management           | [Tutorial](https://webpack.js.org/guides/output-management)            | [Branch](https://github.com/steveosoule/webpack/tree/output-management)      |
