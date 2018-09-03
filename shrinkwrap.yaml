@@ -1,3 +1,6 @@
+dependencies:
+  babel-polyfill: 6.26.0
+  whatwg-fetch: 2.0.4
 devDependencies:
   clean-webpack-plugin: 0.1.19
   css-loader: 1.0.0
@@ -6,6 +9,7 @@ devDependencies:
   express: 4.16.3
   file-loader: 2.0.0
   html-webpack-plugin: 3.2.0
+  imports-loader: 0.8.0
   lodash: 4.17.10
   style-loader: 0.23.0
   webpack: 4.17.1
@@ -351,6 +355,21 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
+  /babel-polyfill/6.26.0:
+    dependencies:
+      babel-runtime: 6.26.0
+      core-js: 2.5.7
+      regenerator-runtime: 0.10.5
+    dev: false
+    resolution:
+      integrity: sha1-N5k3q8Z9eJWXCtxiHyhM2WbPIVM=
+  /babel-runtime/6.26.0:
+    dependencies:
+      core-js: 2.5.7
+      regenerator-runtime: 0.11.1
+    dev: false
+    resolution:
+      integrity: sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -829,6 +848,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
+  /core-js/2.5.7:
+    dev: false
+    resolution:
+      integrity: sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
   /core-util-is/1.0.2:
     dev: true
     resolution:
@@ -1912,6 +1935,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-vAaZHieK9qjGo58agRBg+bhHX3hoTZU/Oa3GESWLz7t1U62fk63aHuDJJEteXoDeTCcPmUT+z38gkHPZkkmpmQ==
+  /imports-loader/0.8.0:
+    dependencies:
+      loader-utils: 1.1.0
+      source-map: 0.6.1
+    dev: true
+    engines:
+      node: '>= 4'
+    resolution:
+      integrity: sha512-kXWL7Scp8KQ4552ZcdVTeaQCZSLW+e6nJfp3cwUMB673T7Hr98Xjx5JK+ql7ADlJUvj1JS5O01RLbKoutN5QDQ==
   /imurmurhash/0.1.4:
     dev: true
     engines:
@@ -3203,6 +3235,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
+  /regenerator-runtime/0.10.5:
+    dev: false
+    resolution:
+      integrity: sha1-M2w+/BIgrc7dosn6tntaeVWjNlg=
+  /regenerator-runtime/0.11.1:
+    dev: false
+    resolution:
+      integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
   /regex-not/1.0.2:
     dependencies:
       extend-shallow: 3.0.2
@@ -4200,6 +4240,10 @@ packages:
       node: '>=0.8.0'
     resolution:
       integrity: sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  /whatwg-fetch/2.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
   /which-module/2.0.0:
     dev: true
     resolution:
@@ -4296,6 +4340,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  babel-polyfill: ^6.26.0
   clean-webpack-plugin: ^0.1.19
   css-loader: ^1.0.0
   csv-loader: ^3.0.2
@@ -4303,6 +4348,7 @@ specifiers:
   express: ^4.16.3
   file-loader: ^2.0.0
   html-webpack-plugin: ^3.2.0
+  imports-loader: ^0.8.0
   lodash: ^4.17.10
   style-loader: ^0.23.0
   webpack: ^4.17.1
@@ -4310,4 +4356,5 @@ specifiers:
   webpack-dev-middleware: ^3.2.0
   webpack-dev-server: ^3.1.7
   webpack-merge: ^4.1.4
+  whatwg-fetch: ^2.0.4
   xml-loader: ^1.2.1
