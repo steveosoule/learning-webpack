@@ -1,23 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <meta charset="UTF-8">
-  <title>Shimming</title>
-  <script>
-    var modernBrowser = (
-      'fetch' in window &&
-      'assign' in Object
-    );
-
-    if ( !modernBrowser ) {
-      var scriptElement = document.createElement('script');
-
-      scriptElement.async = false;
-      scriptElement.src = '/polyfills.bundle.js';
-      document.head.appendChild(scriptElement);
-    }
-  </script>
+    <meta charset="UTF-8">
+    <title>Production</title>
   </head>
   <body>
-  <script src="index.bundle.js"></script></body>
+  <script type="text/javascript" src="app.bundle.js"></script></body>
 </html>

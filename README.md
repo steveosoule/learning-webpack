@@ -12,3 +12,5 @@
 10. [Caching](https://webpack.js.org/guides/caching/)
 11. [Author Libraries](https://webpack.js.org/guides/author-libraries/)
 12. [Shimming](https://webpack.js.org/guides/shimming/)
+13. [Progressive Web Application](https://webpack.js.org/guides/progressive-web-application/)
+14. [Typescript](https://webpack.js.org/guides/typescript/)
