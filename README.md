@@ -4,3 +4,4 @@
 2. [Asset Management](https://webpack.js.org/guides/asset-management/)
 3. [Output Management](https://webpack.js.org/guides/output-management/)
 4. [Development](https://webpack.js.org/guides/development/)
+5. [Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/)
