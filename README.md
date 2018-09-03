@@ -10,3 +10,4 @@
 8. [Code Splitting](https://webpack.js.org/guides/code-splitting/)
 9. [Lazy Loading](https://webpack.js.org/guides/lazy-loading/)
 10. [Caching](https://webpack.js.org/guides/caching/)
+11. [Author Libraries](https://webpack.js.org/guides/author-libraries/)
