@@ -1,4 +1,4 @@
-# Webpack Demo
+# Webpack
 
 | Topic                       | Tutorial                                                               | Branch                                                                       |
 | --------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -15,4 +15,4 @@
 | Author Libraries            | [Tutorial](https://webpack.js.org/guides/author-libraries)             | [Branch](https://github.com/steveosoule/webpack/tree/author-libraries)       |
 | Shimming                    | [Tutorial](https://webpack.js.org/guides/shimming)                     | [Branch](https://github.com/steveosoule/webpack/tree/shimming)               |
 | Progressive Web Application | [Tutorial](https://webpack.js.org/guides/progressive-web-application)  | [Branch](https://github.com/steveosoule/webpack/tree/pwa)                    |
-| Typescript                  | [Tutorial](https://webpack.js.org/guides/typescript)                   | [Branch](https://github.com/steveosoule/webpack/tree/typescrip)              |
+| Typescript                  | [Tutorial](https://webpack.js.org/guides/typescript)                   | [Branch](https://github.com/steveosoule/webpack/tree/typescript)              |
