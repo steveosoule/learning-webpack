@@ -5,3 +5,5 @@
 3. [Output Management](https://webpack.js.org/guides/output-management/)
 4. [Development](https://webpack.js.org/guides/development/)
 5. [Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/)
+6. [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
+
