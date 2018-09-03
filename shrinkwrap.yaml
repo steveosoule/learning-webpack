@@ -1,5 +1,7 @@
 devDependencies:
   lodash: 4.17.10
+  ts-loader: 5.0.0
+  typescript: 3.0.3
   webpack: 4.17.1
   webpack-cli: 3.1.0
 packages:
@@ -2465,6 +2467,18 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-FWtleNAtZ/Ki2qtqej2CXTOayOH9bHDQF+Q48VpWyDXjbYxA4Yz8iDB31zXOBUlOHHKidDbqGVrTUvQMPmBGBw==
+  /ts-loader/5.0.0:
+    dependencies:
+      chalk: 2.4.1
+      enhanced-resolve: 4.1.0
+      loader-utils: 1.1.0
+      micromatch: 3.1.10
+      semver: 5.5.1
+    dev: true
+    engines:
+      node: '>=6.11.5'
+    resolution:
+      integrity: sha512-SAMaDifHa96h1/nSOYF63GAgf6x96wWq/GL5sr2s97wLQOltOJa+ojQvyyaUfR4Z5/OoVe0ATxObS7nGHZrakQ==
   /tslib/1.9.3:
     dev: true
     resolution:
@@ -2477,6 +2491,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+  /typescript/3.0.3:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-kk80vLW9iGtjMnIv11qyxLqZm20UklzuR2tL0QAnDIygIUIemcZMxlMWudl9OOt76H3ntVzcTiddQ1/pAAJMYg==
   /uglify-es/3.3.9:
     dependencies:
       commander: 2.13.0
@@ -2737,5 +2758,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   lodash: ^4.17.10
+  ts-loader: ^5.0.0
+  typescript: ^3.0.3
   webpack: ^4.17.1
   webpack-cli: ^3.1.0
