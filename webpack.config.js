@@ -4,7 +4,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'none', // production, development, none
+  mode: 'development', // production, development, none
   entry: {
     app: './src/index.js'
   },
